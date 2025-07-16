@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+
+
+</head>
+<!-- <img src="j1.jpg"> -->
+
+<body>
+
+    <div class="cart1">
+
+        <div>
+            <form>
+                <div class="div1">
+
+                    <label class="label">DAY</label>
+                    <br>
+                    <input class="input1 " placeholder="DD" id="input_day">
+
+                </div>
+
+                <div class="div1">
+
+                    <label class="label">MONTH</label>
+                    <br>
+                    <input class="input1 " placeholder="MM" id="input_months">
+
+                </div>
+
+                <div class="div1">
+
+                    <label class="label">YEAR</label>
+                    <br>
+                    <input class="input1 " placeholder="YYYY" id="input_years">
+
+                </div>
+
+
+
+                <div class="p1">
+                    <div class="p2">
+
+
+
+                    </div>
+                </div>
+
+                <div class="b1">
+                    <button type="button" class="sub" onclick="taha()">
+                        <img src="done.png" class="img">
+
+                    </button>
+
+                </div>
+            </form>
+        </div>
+
+
+
+        <div class="w1">
+            <span style="color: #864cff;" id="years"> - - </span>years
+        </div>
+
+        <div class="w1">
+            <span style="color: #864cff;" id="months"> - - </span>months
+        </div>
+
+        <div class="w1">
+            <span style="color: #864cff;" id="days"> - - </span>days
+        </div>
+    </div>
+
+
+    <script>
+
+        function taha() {
+            var day = document.getElementById("input_day").value;
+            var months = document.getElementById("input_months").value;
+            var years = document.getElementById("input_years").value;
+
+
+              var sal = '1403';
+              var moh = '12';
+              var roz = '27';
+
+              var all_days = ( sal * 365 ) + ( moh * 30 ) + ( roz );
+              var taval = ( years * 365 ) + ( months * 30 ) + ( day );
+
+
+              day = roz - day;
+              months = moh - months;
+              years = sal - years;
+
+             
+
+
+              
+
+
+
+
+
+
+
+            document.getElementById("years").innerText = years;
+            document.getElementById("months").innerText = months;
+            document.getElementById("days").innerText = day;
+
+
+        }
+
+
+
+    </script>
+</body>
+
+</html>
