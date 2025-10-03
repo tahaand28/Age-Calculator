@@ -1,5 +1,5 @@
 # Age-Calculator
-This is an age calculator interface built with HTML, CSS, and JavaScript. Users can enter their date of birth to get their age. The app has a simple and stylish design and an animated background.
+این یک رابط کاربری محاسبه‌گر سن است که با HTML، CSS و جاوا اسکریپت ساخته شده است. کاربران می‌توانند تاریخ تولد خود را برای دریافت سن خود وارد کنند. این برنامه دارای طراحی ساده و شیک و پس‌زمینه متحرک است.
 
 
 <img src="Age Calculator.png">
